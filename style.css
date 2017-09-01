@@ -73,8 +73,30 @@ div.onecard {
 	color: #449BE7;
 }
 div.card-stacked {
-	width: 230px;
+	max-width: 230px;
 }
 div.card-content p {
 	font-size: 13px;
+}
+section.latest-episodes {
+	height: 500px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: space-around;
+}
+div.onecardv {
+	width: 200px;
+	margin: 10px;
+}
+a.older {
+	margin-right: 800px;
+	font-size: 10px;
+}
+a.more-ep {
+	border: 2px solid #449BE7;
+	padding: 5px 10px;
 }
