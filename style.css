@@ -58,13 +58,23 @@ section.featured-guests {
 	align-items: center;
 }
 div.cards {
-	padding: 0 100px;
+	padding: 0 50px;
 	display: flex;
 	flex-direction: row;
 }
-div.horizontal {
-	margin: 20px;
+div.onecard {
+	margin: 0 20px;
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .bluetext {
 	color: #449BE7;
+}
+div.card-stacked {
+	width: 230px;
+}
+div.card-content p {
+	font-size: 13px;
 }
