@@ -7,7 +7,7 @@ nav {
 	background-color: #fafafa;
 }
 a.brand-logo {
-	padding: 7px 50px;
+	padding: 2px 30px;
 }
 section.CTA-banner {
 	height: 400px;
@@ -97,6 +97,73 @@ a.older {
 	font-size: 10px;
 }
 a.more-ep {
+	font-size: 17px;
 	border: 2px solid #449BE7;
-	padding: 5px 10px;
+	padding: 10px 20px;
+}
+section.popular-episodes-wigets {
+	height: 900px;
+    margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+article.popular-episodes {
+	width: 600px;
+	padding: 10px 30px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+div.onecardg {
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;	
+}
+div.card-stackedg {
+	padding-left: 20px;
+	font-size: 19px;
+}
+aside.social-media-widgets {
+	width: 300px;
+	padding: 10px 20px;
+}
+div.linktw {
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+section.how-to-consume {
+	height: 250px;
+	background-color: gainsboro;
+}
+article.epilogue {
+	height: 500px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+div.finallogo {
+	width: 400px;
+	margin: 40px 50px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+}
+div.lastchance {
+	width: 400px;
+	margin: 40px 50px;
+	text-align: center;
+}
+div.rights {
+	height: 50px;
+	background-color: #1A1A1A;
+	color: white;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
