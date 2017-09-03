@@ -137,6 +137,53 @@ div.linktw {
 section.how-to-consume {
 	height: 250px;
 	background-color: gainsboro;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+div.options {
+	display: flex;
+	flex-direction: row;
+}
+div.button1 {
+	width: 78px;
+	height: 78px;
+	margin: 10px 10px 0px 0px;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 40px;
+	color: #449BE7;	
+	text-align: center;
+	font-size: 49px;
+	vertical-align: auto;
+}
+div.option1 {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 40px;
+}
+div.logo1 {
+	width: 40px;
+	height: 40px;
+	background-image: url(http://pipsum.com/40x40.jpg);
+	border-radius: 10px;
+}
+div.logo2 {
+	display: inline-block;
+	margin: 5px;
+	width: 100px;
+	height: 40px;
+	background-image: url(http://pipsum.com/100x40.jpg);
+	border-radius: 10px;
+}
+div.logo3 {
+	display: inline-block;
+	margin: 5px;
+	width: 100px;
+	height: 40px;
+	background-image: url(http://pipsum.com/100x40.jpg);
+	border-radius: 10px;
 }
 article.epilogue {
 	height: 500px;
